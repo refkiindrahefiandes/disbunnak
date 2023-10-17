@@ -1,0 +1,104 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# User generate files
+# =========================
+
+# *.jpg
+# *.png
+# *.pdf
+# uploads
+.sass-cache
+prepros.cfg
+.project
+
+npm-debug.log
+node_modules
+.sass-cache
+_dist
+
+# Application config
+application/config/constants.php
+application/config/database.php
+.htaccess
+\.vscode/
+uploads/documents/
+uploads/images/*
+!uploads/images/index.html
+uploads/files/*
+!uploads/files/index.html
+
+.phpintel
